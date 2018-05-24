@@ -51,13 +51,9 @@ console.log(stuff.adder(10,3232));
 console.log(stuff.pi);
 */
 
-var fs = require('fs');
 
-fs.mkdir('stuff', function(){
-    fs.readFile('readme.txt', 'utf8', function(err, data){
-        fs.writeFile('./stuff/newReadme.txt', data);
-    });
-});
+
+
 
 
 
